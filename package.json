@@ -1,0 +1,23 @@
+{
+  "name": "crud-app-task",
+  "version": "1.0.0",
+  "description": "1. Use of Redux Toolkit and Redux thunk for state management and querying the server is\r advised.\r 2. Server must be written in Express.\r 3. MongoDB must be choice of database\r 4. Use of any other libraries is advised to be kept at minimum although you can use any that you deem necessary.\r 5. Elaborate designs for UI are not necessary, just functional UI is enough.\r 6. All CRUD operations are expected to be implemented.\r 7. Good error handling approaches are welcomed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
